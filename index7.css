@@ -1,0 +1,36 @@
+button {
+    background-color: #00FF00;
+    color: #FF0000;
+    font-size: 18pt;
+    margin: 10px;
+    padding: 12px 20px;
+}
+
+#danger-btn {
+    background-color: #0000FF;
+}
+
+.green-bg {
+    background-color: #000000;
+}
+
+.red-bg {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button:hover {
+    background-color: #FF00FF;
+    color: #FFFFFF;
+}
+
+.green-bg:hover {
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
